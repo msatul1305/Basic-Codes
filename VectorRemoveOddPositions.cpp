@@ -13,14 +13,10 @@ cin>>n;
 		}
 		cout<<endl;
 		vector<int>::iterator it;
-		
-		
+	
 		for(it=v.begin();it!=v.end();++it){
-			//cout<<"before deletion= "<<*it<<" "<<endl;
-			
 			it=v.erase(it);
-      if(it==v.end())
-				break;
-			//cout<<"after deletion= "<<*it<<" "<<endl;
+      				if(it==v.end())
+					break;
 			}
  }
